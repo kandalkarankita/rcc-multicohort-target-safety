@@ -28,7 +28,7 @@ How can we programmatically identify and isolate "mixed-phenotype" patient sub-c
 
 ---
 
-## 🔬 Scientific Validation & Figure Replication
+## Scientific Validation & Figure Replication
 
 A core objective of this study was to evaluate the biological robustness of the 174-gene expression signature developed by *Büttner et al. (2022) Genome Medicine*. By transitioning the unsupervised clustering pipeline into a dual-cohort target framework, I successfully replicated the spatial dimensionality reduction boundaries separating distinct renal cell carcinoma lineages.
 
@@ -40,9 +40,7 @@ A core objective of this study was to evaluate the biological robustness of the 
 | ![Büttner Fig 2A](report/publication_fig2a.png) | ![Replicated PCA](report/my_replicated_pca.png) |
 
 
-### Comparative Analysis & Replication Insights (Ref: `comparison.png`)
-
-A direct evaluation of the side-by-side rendering in `comparison.png` demonstrates exceptional cross-cohort alignment and biological reproducibility:
+### Comparative Analysis & Replication Insights
 
 * **Topological Fidelity:** The replicated pipeline output successfully recaptures the exact global architecture proposed by *Büttner et al.*. Principal Component 1 (PC1) isolates the distal nephron-derived lineage (Chromophobe RCC (KICH)) from the proximal tubule-derived malignancies (Clear Cell (KIRC) and Papillary (KIRP)), confirming the signature's strong lineage-discrimination properties.
 
@@ -54,7 +52,7 @@ A direct evaluation of the side-by-side rendering in `comparison.png` demonstrat
 
 ---
 
-## 🌋 Downstream Differential Expression Topology
+## Downstream Differential Expression Topology
 
 To isolate the specific transcriptomic drivers of the newly discovered mixed-phenotype cohort (Cluster 3), I executed an empirical Bayes differential expression analysis (`DESeq2`). The resulting volcano plot visualizes the statistical significance versus effect size for all analyzed features.
 
