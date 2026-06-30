@@ -35,7 +35,7 @@ A core objective of this study was to evaluate the biological robustness of the 
 
 ### Figure Comparison: Transcriptomic Subtype Separation
 
-| Original Publication Layout (Büttner et al.) | Replicated Pipeline Output (This Study) |
+| Original Publication Layout (Büttner et al.) | Replicated Output (This Study) |
 | :---: | :---: |
 | ![Büttner Fig 2A](report/publication_fig2a.png) | ![Replicated PCA](report/my_replicated_pca.png) |
 
@@ -77,7 +77,7 @@ The repository follows a production-grade directory layout separating execution 
 
 ```text
 ├── scripts/          # Production-grade Quarto (.qmd) computational pipeline
-├── report/          # Standalone, reproducible compiled HTML executive report and figures
+├── report/           # Standalone, reproducible compiled HTML executive report and figures
 ├── .gitignore        # Data-integrity file path exclusion filters
 └── README.md         # Professional portfolio documentation
 
