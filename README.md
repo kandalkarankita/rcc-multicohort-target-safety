@@ -1,5 +1,4 @@
 # Multi-Cohort Transcriptomic Stratification and Target Safety Profiling in Renal Cell Carcinoma (RCC)
-
 ---
 
 ### The Biological Question
@@ -76,7 +75,7 @@ To isolate the specific transcriptomic drivers of the newly discovered mixed-phe
 The repository follows a production-grade directory layout separating execution logic from final deliverables:
 
 ```text
-├── scripts/          # Production-grade Quarto (.qmd) computational pipeline
+├── script/          # Production-grade Quarto (.qmd) computational pipeline
 ├── report/           # Standalone, reproducible compiled HTML executive report and figures
 ├── .gitignore        # Data-integrity file path exclusion filters
 └── README.md         # Professional portfolio documentation
